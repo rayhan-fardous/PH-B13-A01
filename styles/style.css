@@ -20,7 +20,6 @@ nav li{
 }
 nav li a{
   text-decoration: none;
-  
 }
 nav img{
   width: 139px;
@@ -59,8 +58,13 @@ nav img{
   margin-top: 154px;
   margin-bottom: 180px;
 }
+.early-para img{
+  max-width: 18px;
+  display: block;
+  margin-right: 8px;
+}
 .banner-content .early-para{
-  display: inline-block;
+  display: inline-flex;
   color: #30B868;
   background: white;
   padding: 8px 12px;
