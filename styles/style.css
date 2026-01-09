@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 /* Shared styles  */
 .font-inter {
   font-family: "Inter", sans-serif;
@@ -10,8 +11,48 @@
 .font-color{
   color: #001931;
 }
+.buttons{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 16px;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color:white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+  justify-content: center;
+  border-radius: 4px;
+  border: none;
+  background-color: #30B868;
+}
+.btn2{
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0);
+  padding: 16px;
+}
+.btn img{
+  width: 20px;
+  height: 20px;
+}
+.btn2 img{
+  width: 20px;
+  height: 20px;
+}
 
 /* Main styles  */
+/* NavBar Styles Start */
 nav{
   display: flex;
   padding: 16px 120px;
@@ -36,19 +77,9 @@ nav img{
   display: flex;
   gap: 32px;
 }
-.btn {
-  color:white;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 12px 16px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  border: none;
-  background-color: #30B868;
-}
+/* NavBar Styles End */
 
-/* Banner Contents */
+/* Banner Contents Start*/
 #banner {
   background: url("../assets/hero-bg.png");
   background-position: center;
@@ -92,21 +123,9 @@ h1 .h1-green{
   font-weight: 400;
   color: white;
 }
-.buttons{
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-  gap: 16px;
-}
-.btn2{
-  border: 1px solid white;
-  border-radius: 4px;
-  color: rgba(255, 255, 255, 1);
-  background: rgba(255, 255, 255, 0);
-  padding: 16px;
-}
+/* Banner Contents End*/
 
-/* Card section  */
+/* Card section  Start*/
 #section-card{
   max-width: 1360px;
   margin: 0 auto;
@@ -161,8 +180,9 @@ h1 .h1-green{
   font-weight: 400;
   color: #627382;
 }
+/* Card section  End*/
 
-/* Second Brain Section  */
+/* Second Brain Section Start */
 #second-brain{
   margin: 50px;
 }
@@ -221,8 +241,9 @@ h1 .h1-green{
   background-size: contain;
   background-repeat: no-repeat;
 }
+/* Second Brain Section End */
 
-/* Early access section  */
+/* Early access section Start */
 #early-access {
   padding: 0px 120px 120px 120px;
 }
@@ -244,10 +265,10 @@ h1 .h1-green{
 .early-container button{
   margin-top: 24px;
 }
+/* Early access section End */
 
-/* Footer section  */
+/* Footer section Start */
 footer{
-  margin-top: 120px;
   background-color: rgba(0, 25, 49, 1);
   padding: 120px 120px 30px;
   text-align: center;
@@ -255,12 +276,18 @@ footer{
 .footer-container{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 83px;
 }
 .footer-container img{
   max-width: 140px;
 }
 .footer-container .social{
-  color: white;
+  color: #FFFFFF;
   font-size: 20px;
   padding-right: 107px;
 }
+footer p{
+  color: #FFFFFF;
+}
+
+/* Footer section End */
