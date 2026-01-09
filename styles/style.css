@@ -161,3 +161,63 @@ h1 .h1-green{
   font-weight: 400;
   color: #627382;
 }
+
+/* Second Brain Section  */
+#second-brain{
+  margin: 50px;
+}
+.second-brain-container{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.image img{
+  width: 600px;
+  height: 600px;
+}
+.image-content{
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.image-content h2{
+  max-width: 700px;
+  font-size: 48px;
+  font-style: Bold;
+  font-weight: 700;
+  line-height: 58px;
+  gap: 16px;
+}
+.image-content .uppercase{
+  text-transform: uppercase;
+  color: #30B868;
+}
+.image-content p{
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 25px 0;
+}
+.image-content ul li{
+  margin-bottom: 15px;
+}
+#second-brain ul{
+  list-style: none;
+  padding-left: 0px;
+}
+#second-brain li{
+  position: relative;
+  padding-left: 35px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+#second-brain li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-image: url('../assets/CheckCircle.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
