@@ -221,3 +221,26 @@ h1 .h1-green{
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+/* Early access section  */
+#early-access {
+  padding: 0px 120px 120px 120px;
+}
+#early-access .early-container{
+  padding: 80px 40px;
+  text-align: center;
+  border-radius: 12px;
+  background: rgba(247, 246, 242, 1);
+}
+.early-container h2{
+  font-size: 40px;
+}
+.early-container p{
+  color: #627382;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 16px;
+}
+.early-container button{
+  margin-top: 24px;
+}
